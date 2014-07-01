@@ -11,7 +11,10 @@
 
 
 (defvar required-packages
-  '(
+  '( 
+    key-chord 
+    evil
+    evil-leader 
     magit
     monokai-theme 
     ujelly-theme 

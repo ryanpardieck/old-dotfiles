@@ -1,8 +1,7 @@
-
 ;my-packages.el
 
 (require 'cl)
-
+jjjjj::j
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
@@ -12,10 +11,13 @@
 
 
 (defvar required-packages
-  '(
+  '( 
+    evil
+    evil-leader 
     magit
+    monokai-theme 
     ujelly-theme 
-    color-theme-solarized 
+    ;color-theme-solarized 
     ;graphene
     ;yasnippet
   ) "a list of packages to ensure are installed at launch.")
