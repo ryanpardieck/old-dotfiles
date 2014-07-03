@@ -11,11 +11,19 @@
 
 
 (defvar required-packages
-  '( 
+  '(  
     key-chord 
     evil
-    evil-leader 
+    evil-leader
+    evil-nerd-commenter 
     magit
+    smex
+    ido-vertical-mode
+    ido-ubiquitous
+    switch-window 
+    projectile
+    flx-ido
+    powerline-evil
     monokai-theme 
     ujelly-theme 
     ;color-theme-solarized 

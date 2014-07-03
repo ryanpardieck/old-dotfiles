@@ -1,0 +1,62 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jul  2 20:05:33 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/dotfiles/emacs.d/" "/home/vagrant/dotfiles/emacs.d/my-loadpackages.el" "/home/vagrant/dotfiles/emacs.d/my-packages.el" "~/dotfiles/emacs.d/my-leader-keys.el" "~/dotfiles/emacs.d/my-loadpackages.el" "~/dotfiles/emacs.d/my-packages.el" "/usr/share/emacs/24.3/lisp/loaddefs.el" "~/dotfiles/emacs.d/my-noexternals.el" "~/dotfiles/emacs.d/my-custom-mappings.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vagrant/dotfiles/emacs.d/my-loadpackages.el"
+  "my-loadpackages.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode auto-complete-mode projectile-mode undo-tree-mode magit-auto-revert-mode)
+  2306
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vagrant/dotfiles/emacs.d/my-packages.el"
+  "my-packages.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode auto-complete-mode projectile-mode undo-tree-mode magit-auto-revert-mode)
+  378
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vagrant/dotfiles/emacs.d/my-leader-keys.el"
+  "my-leader-keys.el"
+  'emacs-lisp-mode
+  '(flx-ido-mode auto-complete-mode projectile-mode undo-tree-mode magit-auto-revert-mode)
+  169
+  '(154 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vagrant/*message*-20140702-194246"
+  "*unsent posting*"
+  'message-mode
+  '(auto-fill-mode abbrev-mode flx-ido-mode projectile-mode undo-tree-mode magit-auto-revert-mode mml-mode)
+  12
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-emacs) (fill-column . 72)))
+
