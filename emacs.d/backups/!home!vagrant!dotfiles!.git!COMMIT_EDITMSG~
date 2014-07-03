@@ -1,0 +1,118 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'github/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	new file:   #emacs#
+#	modified:   emacs
+#	deleted:    emacs.d/#my-packages.el#
+#	new file:   emacs.d/.emacs.desktop
+#	new file:   emacs.d/.emacs.desktop.lock
+#	modified:   emacs.d/ac-comphist.dat
+#	deleted:    emacs.d/auto-save-list/.saves-26934-localhost.localdomain~
+#	new file:   emacs.d/auto-save-list/.saves-28715-localhost.localdomain~
+#	new file:   emacs.d/backups/!home!vagrant!.emacs.d!elpa!evil-leader-readme.txt~
+#	new file:   emacs.d/backups/!home!vagrant!.emacs.d!elpa!evil-terminal-cursor-changer-readme.txt~
+#	new file:   emacs.d/backups/!home!vagrant!.ido.last~
+#	new file:   emacs.d/backups/!home!vagrant!.recentf~
+#	new file:   emacs.d/backups/!home!vagrant!dotfiles!emacs.d!my-leader-keys.el~
+#	new file:   emacs.d/backups/!home!vagrant!dotfiles!emacs.d!my-undo-smart-tab.el~
+#	modified:   emacs.d/elpa/archives/gnu/archive-contents
+#	modified:   emacs.d/elpa/archives/gnu/archive-contents~
+#	modified:   emacs.d/elpa/archives/melpa/archive-contents
+#	modified:   emacs.d/elpa/archives/melpa/archive-contents~
+#	new file:   emacs.d/elpa/evil-args-readme.txt
+#	new file:   emacs.d/elpa/evil-exchange-readme.txt
+#	new file:   emacs.d/elpa/evil-god-state-readme.txt
+#	new file:   emacs.d/elpa/evil-indent-textobject-readme.txt
+#	new file:   emacs.d/elpa/evil-leader-readme.txt
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter-autoloads.el
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter-autoloads.el~
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter-pkg.el
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter-pkg.elc
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter.el
+#	new file:   emacs.d/elpa/evil-nerd-commenter-20140702.631/evil-nerd-commenter.elc
+#	new file:   emacs.d/elpa/evil-nerd-commenter-readme.txt
+#	new file:   emacs.d/elpa/evil-numbers-readme.txt
+#	new file:   emacs.d/elpa/evil-space-readme.txt
+#	new file:   emacs.d/elpa/evil-tabs-readme.txt
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer-autoloads.el
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer-autoloads.el~
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer-pkg.el
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer-pkg.elc
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer.el
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-20140423.1151/evil-terminal-cursor-changer.elc
+#	new file:   emacs.d/elpa/evil-terminal-cursor-changer-readme.txt
+#	new file:   emacs.d/elpa/evil-visualstar-readme.txt
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx-autoloads.el
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx-autoloads.el~
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx-pkg.el
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx-pkg.elc
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx.el
+#	new file:   emacs.d/elpa/flx-20140630.2152/flx.elc
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido-autoloads.el
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido-autoloads.el~
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido-pkg.el
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido-pkg.elc
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido.el
+#	new file:   emacs.d/elpa/flx-ido-20140630.2152/flx-ido.elc
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous-autoloads.el
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous-autoloads.el~
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous-pkg.el
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous-pkg.elc
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous.el
+#	new file:   emacs.d/elpa/ido-ubiquitous-20140526.1306/ido-ubiquitous.elc
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode-autoloads.el
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode-autoloads.el~
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode-pkg.el
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode-pkg.elc
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode.el
+#	new file:   emacs.d/elpa/ido-vertical-mode-20140516.1920/ido-vertical-mode.elc
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-autoloads.el
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-autoloads.el~
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-pkg.el
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-pkg.elc
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-separators.el
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-separators.elc
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-themes.el
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline-themes.elc
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline.el
+#	new file:   emacs.d/elpa/powerline-20140516.2128/powerline.elc
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-autoloads.el
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-autoloads.el~
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-pkg.el
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-pkg.elc
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-themes.el
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-themes.elc
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil.el
+#	new file:   emacs.d/elpa/powerline-evil-20140517.1/powerline-evil.elc
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile-autoloads.el
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile-autoloads.el~
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile-pkg.el
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile-pkg.elc
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile.el
+#	new file:   emacs.d/elpa/projectile-20140630.416/projectile.elc
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab-autoloads.el
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab-autoloads.el~
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab-pkg.el
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab-pkg.elc
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab.el
+#	new file:   emacs.d/elpa/smart-tab-20130317.1157/smart-tab.elc
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window-autoloads.el
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window-autoloads.el~
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window-pkg.el
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window-pkg.elc
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window.el
+#	new file:   emacs.d/elpa/switch-window-20130914.640/switch-window.elc
+#	new file:   emacs.d/my-leader-keys.el
+#	modified:   emacs.d/my-loadpackages.el
+#	modified:   emacs.d/my-noexternals.el
+#	modified:   emacs.d/my-packages.el
+#	new file:   emacs.d/my-undo-smart-tab.el
+#	new file:   emacs.d/places
+#	new file:   emacs.d/projectile-bookmarks.eld
+#	new file:   emacs.d/projectile.cache
+#

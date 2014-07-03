@@ -1,14 +1,32 @@
-((("global-set-key" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("switch-window" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("require" .
-   [1 0 0 0 0 0 1])
-  ("foofoo" .
-   [1 0 0 2 0 0])
-  ("foofooo" .
-   [0 0 0 2 0 0 0])
+((("flycheck" .
+   [1 0 0 0 0 0 0 0])
+  ("sr-speedbar" .
+   [0 0 0 0 1 1 1 1 0 0 0])
+  ("execute-extended-command" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("multi-term" .
+   [0 0 0 0 0 1 1 0 0 0])
+  ("evil-terminal-cursor-changer" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("unless" .
    [1 0 0 0 0 0])
-  ("evil-terminal-cursor-changer" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("foofooo" .
+   [0 0 0 2 0 0 0])
+  ("foofoo" .
+   [1 0 0 2 0 0])
+  ("require" .
+   [3 0 0 0 0 0 4])
+  ("switch-window" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("global-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ace-jump-mode" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("direx" .
+   [1 0 0 0 0])
+  ("linum-relative" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("hlinum" .
+   [1 0 0 0 0 0])))

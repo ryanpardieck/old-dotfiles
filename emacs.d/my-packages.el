@@ -17,8 +17,16 @@
     evil-leader
     evil-nerd-commenter 
     magit
+    ace-jump-mode
+    multi-term
+    elscreen
+    sr-speedbar 
     smex
-    ido-vertical-mode
+    linum-relative
+    hlinum
+    flycheck ;config later
+    auctex ;config later, and, something for camelcase/littleword movement?
+    
     ido-ubiquitous
     switch-window 
     projectile

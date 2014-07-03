@@ -4,14 +4,25 @@
 ;bind the projectile find file
 ;bind acejump 
 
+;acejump = spacebar
+;bind focus window
+;bind kill window
+;bid jump to tree?
+
 
 
 (evil-leader/set-key
   "e" 'ido-find-file
-  "ii" 'ido-switch-buffer
-  "w" 'switch-window
+  "b" 'ido-switch-buffer
+  "v" 'switch-window
   "f" 'projectile-find-file
   "k" 'ido-kill-buffer
   "sh" 'evil-window-split
   "sv" 'evil-window-vsplit
+  "ww" 'evil-save
+  "wa" 'save-some-buffers
+  "x" 'smex
+  "inv" 'whitespace-mode
+  "sb" 'sr-speedbar-toggle
+
 )
