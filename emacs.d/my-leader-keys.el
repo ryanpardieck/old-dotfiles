@@ -24,5 +24,6 @@
   "x" 'smex
   "inv" 'whitespace-mode
   "sb" 'sr-speedbar-toggle
+  "sk" 'evil-window-delete  
 
 )

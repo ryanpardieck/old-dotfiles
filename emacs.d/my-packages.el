@@ -27,6 +27,7 @@
     flycheck ;config later
     auctex ;config later, and, something for camelcase/littleword movement?
     
+    rinari
     ido-ubiquitous
     switch-window 
     projectile
