@@ -19,14 +19,15 @@
     magit
     ace-jump-mode
     multi-term
-    elscreen
+    ;elscreen
     sr-speedbar 
     smex
     linum-relative
     hlinum
     flycheck ;config later
     auctex ;config later, and, something for camelcase/littleword movement?
-    
+    workgroups2
+
     rinari
     ido-ubiquitous
     switch-window 

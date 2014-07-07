@@ -1,8 +1,9 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/vagrant/.recentf" . 1370)
+(("/home/vagrant/.emacs_workgroups" . 3418)
+ ("/home/vagrant/.recentf" . 391)
  ("/home/vagrant/dotfiles/emacs" . 459)
  ("/home/vagrant/dotfiles/emacs.d/my-custom-mappings.el" . 202)
- ("/home/vagrant/dotfiles/emacs.d/my-leader-keys.el" . 549)
- ("/home/vagrant/dotfiles/emacs.d/my-loadpackages.el" . 3684)
+ ("/home/vagrant/dotfiles/emacs.d/my-leader-keys.el" . 906)
+ ("/home/vagrant/dotfiles/emacs.d/my-loadpackages.el" . 2646)
  ("/home/vagrant/dotfiles/emacs.d/my-noexternals.el" . 537)
- ("/home/vagrant/dotfiles/emacs.d/my-packages.el" . 607))
+ ("/home/vagrant/dotfiles/emacs.d/my-packages.el" . 512))

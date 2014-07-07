@@ -1,1 +1,1 @@
-("/vagrant/config-journals/" "~/dotfiles/")
+("~/dotfiles/" "/vagrant/codebox/whiskerfish/" "/vagrant/litbox/code-monkey/" "/vagrant/config-journals/")

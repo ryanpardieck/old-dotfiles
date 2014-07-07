@@ -88,8 +88,25 @@
 
 
 (require 'powerline-evil)
+(powerline-default-theme)
 (powerline-evil-vim-color-theme)
 ;(powerline-evil-tag-verbose)
+;color adjustments modified from https://github.com/jonathanchu/emacs-powerline/issues/11
+;these are mostly to fix how it looks in mintty
+(setq powerline-color1 "#657b83")
+(setq powerline-color2 "#839496")
+
+;the light "terminal green" of the powerline filename text is 63d615
+(set-face-attribute 'mode-line nil
+                    :foreground "#fdf6e3"
+                    :background "#901b0e" ;1e90ff light blue (shades of red based on d62815)
+                    :box nil)
+(set-face-attribute 'mode-line-inactive nil 
+                    :foreground "#fdf6e3"
+                    :background "#002345";002345 darker blue 
+                    :box nil)
+
+
 
 ;(require 'evil-nerd-commenter)
 ;evil nerd commenter, just needs one line (for defaults)
@@ -138,6 +155,12 @@
 
 (require 'magit)
 (define-key global-map (kbd "C-c m") 'magit-status)
+
+(require 'workgroups2)
+(setq wg-default-session-file "~/.emacs_workgroups")
+(setq wg-use-default-session-file 1)
+(workgroups-mode 1) ;keep workgroups2 + this line at the bottom of packages(?)
+
 
 ;(require 'yasnippet)
 ;(yas-global-mode 1)

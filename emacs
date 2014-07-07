@@ -9,6 +9,7 @@
   (load "~/.emacs.d/my-leader-keys.el")
 ))
 
+(add-hook 'auto-save-hook (lambda () (wg-save-session)))
 
 
 

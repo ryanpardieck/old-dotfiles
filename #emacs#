@@ -6,10 +6,25 @@
 (add-hook 'after-init-hook '(lambda ()
   (load "~/.emacs.d/my-noexternals.el")
   (load "~/.emacs.d/my-custom-mappings.el")
+  (load "~/.emacs.d/my-leader-keys.el")
 ))
 
+(add-hook 'auto-save-hook (lambda () (wg-save-session)))
 
-
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjf
+jfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+jfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjf
+jfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+ffffffffffffffffffffffffffffffffffff
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjf
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjffjfjfj
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfj
+fjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjf
+ffjfjfjfjfjfjffjfjfjfjfjfjffjfjfjfjfjfj
+fjfjfjfjfjfjf
 
 
 
