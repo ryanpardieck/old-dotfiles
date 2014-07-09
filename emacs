@@ -2,11 +2,11 @@
 
 (cd "~/../../vagrant/")
 
-(load "~/.emacs.d/my-loadpackages.el")
+(load "~/.my-emacs/my-loadpackages.el")
 (add-hook 'after-init-hook '(lambda ()
-  (load "~/.emacs.d/my-noexternals.el")
-  (load "~/.emacs.d/my-custom-mappings.el")
-  (load "~/.emacs.d/my-leader-keys.el")
+  (load "~/.my-emacs/my-noexternals.el")
+  (load "~/.my-emacs/my-custom-mappings.el")
+  (load "~/.my-emacs/my-leader-keys.el")
 ))
 
 (add-hook 'auto-save-hook (lambda () (wg-save-session)))
