@@ -72,7 +72,17 @@
 	;dirs of saved backups and buffer-places
         save-place-file (concat user-emacs-directory "places")
         backup-directory-alist `(("." . ,(concat user-emacs-directory
-                                                 "backups"))))
+                                                 "backups")))
+        auto-save-file-name-transforms `((".*" ,user-emacs-directory t))
+        backup-by-copying t
+        delete-old-versions t
+        kept-new-versions 6
+        kept-old-versions 2
+        version-control t
+
+)
+
+
 
 
 (require 'key-chord)
