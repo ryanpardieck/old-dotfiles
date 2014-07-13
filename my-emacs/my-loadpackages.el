@@ -17,6 +17,9 @@
 (setq ido-use-faces nil)
 
 
+;NOTE: to fix a window,  M-: (setq window-size-fixed t)
+;can replace t with 'width or 'height
+
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
@@ -149,6 +152,16 @@
 (define-key evil-normal-state-map (kbd "SPC") 'ace-jump-mode)
 
 (require 'sr-speedbar)
+(custom-set-variables
+ '(speedbar-show-unknown-files t)
+)
+(setq sr-speedbar-auto-refresh t
+      sr-speedbar-max-width 30
+      sr-speedbar-right-side nil 
+)
+
+
+(winner-mode 1) ;undo and redo for window changes (bind to leader later)
 
 
 (require 'linum-relative)

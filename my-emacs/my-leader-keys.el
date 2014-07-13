@@ -33,6 +33,8 @@
   "pr" 'wg-reload-session
   "ps" 'wg-save-session ;how to do autsaving?
   "term" 'multi-term
-
+  ;undo/undo-undo window config changes
+  "wib" 'winner-undo
+  "wif" 'winner-redo
 
 )

@@ -53,9 +53,9 @@ Plugin 'supertab'
 Plugin 'tcomment'
 Plugin 'jellybeans.vim'
 "Plugin 'nathanealkane/vim-indent-guides'
-
-
-
+Plugin  'sickill/vim-monokai'
+Plugin 'lucius'
+Plugin 'altercation/vim-colors-solarized'
 
 
 
@@ -117,5 +117,11 @@ set hidden
 
 syntax on
 
-colorscheme evening 
+set term=xterm-256color
+set background=dark
+let g:solarized_termcolors=256
+colorscheme jellybeans   
+
+set wildmenu
+set wildmode=longest:full,full
 
