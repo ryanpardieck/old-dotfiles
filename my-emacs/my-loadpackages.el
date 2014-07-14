@@ -144,7 +144,7 @@
 
 
 (require 'multi-term)
-(setq multi-term-program "/bin/bash")
+(setq multi-term-program "/bin/zsh")
 
 
 (require 'ace-jump-mode)
