@@ -144,7 +144,7 @@
 
 
 (require 'multi-term)
-(setq multi-term-program "/bin/zsh")
+(setq multi-term-program "/bin/bash") ;change to zsh once get it to render right
 
 
 (require 'ace-jump-mode)
