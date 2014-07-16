@@ -57,6 +57,9 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'kolor'
 Plugin 'kien/ctrlp.vim'
 Plugin 'benmills/vimux'
+Plugin 'amiorin/vim-project'
+Plugin 'wting/gitsessions.vim'
+Plugin 'szw/vim-ctrlspace'
 
 
 
@@ -127,3 +130,13 @@ highlight nonText ctermbg=NONE
 set wildmenu
 set wildmode=longest:full,full
 
+
+
+"---PROJECTS CONFIG---
+
+let g:project_use_nerdtree = 1
+set rtp+=~/.vim/bundle/vim-project/
+call project#rc("~/batcave-native")
+
+Project '~/dotfiles'
+Project 'codebox-native/whiskerfish'
