@@ -36,5 +36,6 @@
   ;undo/undo-undo window config changes
   "wib" 'winner-undo
   "wif" 'winner-redo
+  "<SPC>" 'ace-jump-mode ;even jumps windows!!
 
 )

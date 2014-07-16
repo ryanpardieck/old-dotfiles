@@ -91,8 +91,11 @@
 (require 'key-chord)
 (key-chord-mode 1)
 
+
+;make sure evil-leader always comes before evil
 (require 'evil-leader)
 (global-evil-leader-mode)
+(evil-leader/set-leader "<SPC>")
 (evil-leader/set-key "\\" 'find-file)
 
 
