@@ -13,10 +13,10 @@
 
 (evil-leader/set-key
   "e" 'ido-find-file
-  "b" 'ido-switch-buffer
+  "b" 'projectile-switch-to-buffer
   "v" 'switch-window
   "f" 'projectile-find-file
-  "ib" 'projectile-ibuffer
+  "ib" 'ibuffer 
   "k" 'ido-kill-buffer
   "" 'frame-configuration-to-register
   "" 'jump-to-register ;these are for switching between workspaces

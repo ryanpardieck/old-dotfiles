@@ -47,8 +47,6 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
-"Don't forget to compile c extension for command-t
-Plugin 'wincent/command-t'
 Plugin 'supertab'
 Plugin 'tcomment'
 Plugin 'jellybeans.vim'
@@ -56,10 +54,9 @@ Plugin 'jellybeans.vim'
 Plugin  'sickill/vim-monokai'
 Plugin 'lucius'
 Plugin 'altercation/vim-colors-solarized'
-
-
-
-
+Plugin 'kolor'
+Plugin 'kien/ctrlp.vim'
+Plugin 'benmills/vimux'
 
 
 
@@ -118,9 +115,14 @@ set hidden
 syntax on
 
 set term=xterm-256color
+set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
-colorscheme jellybeans   
+colorscheme jellybeans  "kolor 
+"this seems to fix the weirdness with the terminal colors showing through
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
+
 
 set wildmenu
 set wildmode=longest:full,full
