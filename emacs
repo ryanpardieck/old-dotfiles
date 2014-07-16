@@ -1,6 +1,6 @@
 ;move to the vagrant home dir
-
-(cd "~/../../vagrant/")
+;but not for now--vbox shared folders suck
+;(cd "~/../../vagrant/")
 
 (load "~/.my-emacs/my-loadpackages.el")
 (add-hook 'after-init-hook '(lambda ()

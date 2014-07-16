@@ -6,7 +6,7 @@ alias python="/usr/local/bin/python2.7"
 alias rm="rm -i"
 
 
-export TERM=xterm-256color
+;export TERM=xterm-256color
 
 #------------
 

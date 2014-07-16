@@ -28,6 +28,7 @@
     auctex ;config later, and, something for camelcase/littleword movement?
     workgroups2
 
+    web-mode
     org-pomodoro ;bind some keys eventually?
     rinari
     ido-ubiquitous
