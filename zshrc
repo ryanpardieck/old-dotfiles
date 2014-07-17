@@ -54,6 +54,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
+#vi keybindings
 bindkey -v 
 
 # vi style incremental search
@@ -96,5 +97,5 @@ setopt AUTO_CD
 alias emacs='emacsclient -nw -c -a ""'
 alias python="/usr/local/bin/python2.7" 
 alias rm="rm -i"
-
+alias sharestuff="cp -r ~/batcave-native/ ~/../../vagrant/shared-batcave"
 
