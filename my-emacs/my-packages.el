@@ -1,4 +1,4 @@
-;my-packages.el
+;;;my-packages.el
 
 (require 'cl)
 
@@ -27,6 +27,9 @@
     flycheck ;config later
     auctex ;config later, and, something for camelcase/littleword movement?
     workgroups2
+    evil-god-state
+    evil-surround
+    evil-numbers
 
     ibuffer-vc
     web-mode

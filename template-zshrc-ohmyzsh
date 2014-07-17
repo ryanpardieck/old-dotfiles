@@ -54,19 +54,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
-bindkey -v 
-
-# vi style incremental search
-bindkey '^R' history-incremental-search-backward
-bindkey '^S' history-incremental-search-forward
-bindkey '^P' history-search-backward
-bindkey '^N' history-search-forward  
-
-#don't need to type cd
-setopt AUTO_CD
-
-
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -91,10 +78,3 @@ setopt AUTO_CD
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-#alias ~="cd ~/../../vagrant/"
-alias emacs='emacsclient -nw -c -a ""'
-alias python="/usr/local/bin/python2.7" 
-alias rm="rm -i"
-
-

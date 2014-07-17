@@ -1,5 +1,8 @@
 # .bashrc
 
+#use vi key bindings
+set -o vi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc

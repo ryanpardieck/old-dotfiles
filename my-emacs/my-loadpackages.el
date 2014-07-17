@@ -50,6 +50,9 @@
 
 (require 'switch-window)
 (global-set-key (kbd "C-x o") 'switch-window)
+;switch with home keys not numbers
+(setq switch-window-shortcut-style 'qwerty)
+
 
 ;(require 'smart-tab)
 ;(smart-tab-mode 1)
@@ -96,12 +99,22 @@
 (require 'evil-leader)
 (global-evil-leader-mode)
 (evil-leader/set-leader "<SPC>")
-(evil-leader/set-key "\\" 'find-file)
+;(evil-leader/set-key "\\" 'find-file)
 
 
 (require 'evil)
 (evil-mode 1)
 
+(require 'evil-god-state)
+(evil-define-key 'normal global-map " " 'evil-execute-in-god-state)
+
+(require 'evil-surround)
+(global-evil-surround-mode 1)
+
+(require 'evil-numbers)
+;to increment number literals
+(global-set-key (kbd "C-c +") 'evil-numbers/inc-at-pt)
+(global-set-key (kbd "C-c -") 'evil-numbers/dec-at-pt)
 
 (require 'powerline-evil)
 (powerline-default-theme)
@@ -147,12 +160,13 @@
 
 
 (require 'multi-term)
-(setq multi-term-program "/bin/bash") ;change to zsh once get it to render right
+(setq multi-term-program "/bin/zsh") ;change to zsh once get it to render right
 
 
 (require 'ace-jump-mode)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
-(define-key evil-normal-state-map (kbd "SPC") 'ace-jump-mode)
+(define-key evil-normal-state-map (kbd "\\") 'ace-jump-mode)
+
 
 (require 'sr-speedbar)
 (custom-set-variables

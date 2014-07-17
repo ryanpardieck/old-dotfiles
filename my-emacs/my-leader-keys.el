@@ -18,8 +18,6 @@
   "f" 'projectile-find-file
   "ib" 'ibuffer 
   "k" 'ido-kill-buffer
-  "" 'frame-configuration-to-register
-  "" 'jump-to-register ;these are for switching between workspaces
   "sh" 'evil-window-split
   "sv" 'evil-window-vsplit
   "ww" 'evil-save
@@ -36,6 +34,9 @@
   ;undo/undo-undo window config changes
   "wib" 'winner-undo
   "wif" 'winner-redo
-  "<SPC>" 'ace-jump-mode ;even jumps windows!!
+  "j" 'ace-jump-mode ;even jumps windows!!
+  "<SPC>" 'evil-execute-in-god-state
+  "n" 'evil-scroll-down
+  "m" 'evil-scroll-up
 
 )
