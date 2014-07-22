@@ -1,0 +1,7 @@
+Leader config. Remove god mode. Add prog modes, other configs.
+
+Add sass-mode, coffee-mode, gtags.
+Add smart vim-tmux-navigator switching to tmux. Might need to
+  remove.
+Misc vim config.
+Misc zsh plugin config. 
