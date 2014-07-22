@@ -34,6 +34,7 @@
   ;undo/undo-undo window config changes
   "wib" 'winner-undo
   "wif" 'winner-redo
+  "wix" 'maximize-window
   "k" 'evil-scroll-up
   "j" 'evil-scroll-down 
   "<SPC>" 'ace-jump-mode ;even jumps windows!!
