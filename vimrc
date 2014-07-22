@@ -57,12 +57,23 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'kolor'
 Plugin 'kien/ctrlp.vim'
 Plugin 'benmills/vimux'
-Plugin 'amiorin/vim-project'
+"Plugin 'amiorin/vim-project'
 Plugin 'wting/gitsessions.vim'
 Plugin 'szw/vim-ctrlspace'
-
-
-
+"Plugin 'xolox/vim-session'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'tpope/vim-endwise'
+Plugin 'ctags.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'matchit.zip'
+Plugin 'scrooloose/syntastic'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'danro/rename.vim'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-bundler'
 
 
 
@@ -103,9 +114,10 @@ imap <right> <nop>
 set number
 
 "uses spaces not tabs
-set tabstop=8
-set shiftwidth=8
-set softtabstop=4
+set smarttab 
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 "leave buffers open
@@ -134,9 +146,9 @@ set wildmode=longest:full,full
 
 "---PROJECTS CONFIG---
 
-let g:project_use_nerdtree = 1
-set rtp+=~/.vim/bundle/vim-project/
-call project#rc("~/batcave-native")
+"let g:project_use_nerdtree = 1
+"set rtp+=~/.vim/bundle/vim-project/
+" call project#rc("~/batcave-native")
 
-Project '~/dotfiles'
-Project 'codebox-native/whiskerfish'
+" Project '~/dotfiles'
+" Project 'codebox-native/whiskerfish'

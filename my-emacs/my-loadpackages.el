@@ -105,8 +105,8 @@
 (require 'evil)
 (evil-mode 1)
 
-(require 'evil-god-state)
-(evil-define-key 'normal global-map " " 'evil-execute-in-god-state)
+;; (require 'evil-god-state)
+;; (evil-define-key 'normal global-map " " 'evil-execute-in-god-state)
 
 (require 'evil-surround)
 (global-evil-surround-mode 1)
@@ -211,6 +211,10 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(require 'sass-mode)
+
+(require 'coffee-mode)
 
 (require 'ibuffer-vc)
 ;make sorting ibuffer by git projects the defaultjj

@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+export NVM_DIR="/home/vagrant/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -20,7 +23,7 @@ export ZSH=$HOME/.oh-my-zsh
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -45,9 +48,18 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git ssh-agent common-aliases autojump gem jsontools lein npm nyan python sprunge)
+#potentially useful ...
+#brew docker aws gitfast not git? rvm, powify?
+#more: git-extras? git-flow-avh? git-hubflow? jira? osx, perl?, pip?, pow? redis-cli?
+#supervisor? taskwarrior (for todo)?, vagrant, vi-mode?, virtualenvwrapper zeus!, 
 
 source $ZSH/oh-my-zsh.sh
+
+# ---PLUGIN CONFIG---
+
+#ssh-agent config (see plugin src)
+zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 # User configuration
 
@@ -72,11 +84,11 @@ setopt AUTO_CD
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vi'
-# else
-#   export EDITOR='vi'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='vim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -98,4 +110,3 @@ alias emacs='emacsclient -nw -c -a ""'
 alias python="/usr/local/bin/python2.7" 
 alias rm="rm -i"
 alias sharestuff="cp -r ~/batcave-native/ ~/../../vagrant/shared-batcave"
-

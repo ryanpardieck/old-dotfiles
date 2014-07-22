@@ -27,9 +27,12 @@
     flycheck ;config later
     auctex ;config later, and, something for camelcase/littleword movement?
     workgroups2
-    evil-god-state
+    ;; evil-god-state
     evil-surround
     evil-numbers
+    gtags
+    sass-mode
+    coffee-mode
 
     ibuffer-vc
     web-mode
